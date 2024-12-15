@@ -15,6 +15,7 @@ function App() {
       <Nav />
       <Routes basename="/Health-Metrics-Hub/">
         <Route path="/Health-Metrics-Hub/" element={<Homepage />} />
+        <Route path="/" element={<Homepage />} />
         <Route path="/Health-Metrics-Hub/bmi" element={<BmiCalculator />} />
         <Route path="/Health-Metrics-Hub/age" element={<AgeCalculator />} />
         <Route
