@@ -13,18 +13,18 @@ function App() {
   return (
     <>
       <Nav />
-      <Routes basename="/Health-Metrics-Hub/">
-        <Route path="/Health-Metrics-Hub/" element={<Homepage />} />
+      <Routes >
+        
         <Route path="/" element={<Homepage />} />
-        <Route path="/Health-Metrics-Hub/bmi" element={<BmiCalculator />} />
-        <Route path="/Health-Metrics-Hub/age" element={<AgeCalculator />} />
+        <Route path="/bmi" element={<BmiCalculator />} />
+        <Route path="/age" element={<AgeCalculator />} />
         <Route
-          path="/Health-Metrics-Hub/water"
+          path="/water"
           element={<WaterIntakeCalculator />}
         />
-        <Route path="/Health-Metrics-Hub/sleep" element={<SleepCalculator />} />
+        <Route path="/sleep" element={<SleepCalculator />} />
         <Route
-          path="/Health-Metrics-Hub/ideal-weight"
+          path="/ideal-weight"
           element={<IdealWeight />}
         />
       </Routes>
