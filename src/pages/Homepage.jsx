@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const tools = [
   {
     title: "BMI Calculator",
-    path: "/Health-Metrics-Hub/bmi",
+    path: "/bmi",
     description:
       "Calculate your Body Mass Index (BMI) - a simple measure using your height and weight to work out if your weight is healthy.",
     image:
@@ -12,7 +12,7 @@ const tools = [
   },
   {
     title: "Age Calculator",
-    path: "/Health-Metrics-Hub/age",
+    path: "/age",
     description:
       "Calculate your exact age in years, months, and days. A simple tool to know your precise age from your date of birth.",
     image:
@@ -20,7 +20,7 @@ const tools = [
   },
   {
     title: "Water Intake Calculator",
-    path: "/Health-Metrics-Hub/water",
+    path: "/water",
     description:
       "Calculate your daily water intake needs based on your weight, activity level, and climate conditions.",
     image:
@@ -28,7 +28,7 @@ const tools = [
   },
   {
     title: "Sleep Calculator",
-    path: "/Health-Metrics-Hub/sleep",
+    path: "/sleep",
     description:
       "Calculate the ideal bedtime based on your desired wake-up time and sleep cycles.",
     image:
@@ -36,7 +36,7 @@ const tools = [
   },
   {
     title: "Ideal Weight Calculator",
-    path: "/Health-Metrics-Hub/ideal-weight",
+    path: "/ideal-weight",
     description:
       "Calculate your ideal weight range based on height, gender, and body frame size.",
     image:
