@@ -25,7 +25,7 @@ function Themebtn() {
             name="theme-dropdown"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
             aria-label="Default"
-            // value="default"
+            value="default"
           />
         </li>
         <li>
@@ -133,24 +133,24 @@ const Nav = () => {
             className="menu menu-sm dropdown-content bg-base-300 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <NavLink to="/Health-Metrics-Hub">Homepage</NavLink>
+              <NavLink to="/">Homepage</NavLink>
             </li>
             <li>
-              <NavLink to="/Health-Metrics-Hub/bmi">BMI Cal.</NavLink>
+              <NavLink to="/bmi">BMI Cal.</NavLink>
             </li>
             <li>
-              <NavLink to="/Health-Metrics-Hub/age">AGE Cal.</NavLink>
+              <NavLink to="/age">AGE Cal.</NavLink>
             </li>
             <li>
-              <NavLink to="/Health-Metrics-Hub/water">
+              <NavLink to="/water">
                 Water Intake Cal.
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Health-Metrics-Hub/sleep">Sleep Cal.</NavLink>
+              <NavLink to="/sleep">Sleep Cal.</NavLink>
             </li>
             <li>
-              <NavLink to="/Health-Metrics-Hub/ideal-weight">
+              <NavLink to="/ideal-weight">
                 Ideal Weight Cal.
               </NavLink>
             </li>
@@ -159,7 +159,7 @@ const Nav = () => {
       </div>
 
       <div className="navbar-center">
-        <NavLink to="/Health-Metrics-Hub/" className="btn btn-ghost text-xl">
+        <NavLink to="/" className="btn btn-ghost text-xl">
           Health Metrics Hub
         </NavLink>
         <Themebtn />
